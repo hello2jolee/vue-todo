@@ -1,18 +1,4 @@
-# vue-todo
+# 할 일 관리 앱
 
-> A vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## <style scoped>란?
+스타일 정의를 해당 컴포넌트에만 적용할 때 사용
