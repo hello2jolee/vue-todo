@@ -1,6 +1,18 @@
 # 할 일 관리 앱
 
-## 이벤트 발생과 수신 형식
+## 상위에서 하위 컴포넌트로 데이터 전달
+#### props 속성
+- 상위 컴포넌트에서 하위 컴포넌트로 데이터를 전달할 때 사용하는 속성
+    ```javascript
+    Vue.component('child-component', {
+        props: ['props 속성 이름']
+    })
+    ```
+    ```html
+    <child-component v-bind:props 속성 이름="상위 컴포넌트의 data 속성"></child-component>
+    ```
+
+## 하위에서 상위 컴포넌트로 이벤트 전달
 - 이벤트 발생과 수신은 `$emit()`과 `v-on:` 속성을 사용하여 구현
     ```javascript
     // $emit('이벤트 이름', 인자1, 인자2, ...) 
